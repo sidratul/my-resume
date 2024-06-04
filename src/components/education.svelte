@@ -10,7 +10,8 @@
 
   .major{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
+    text-wrap: nowrap;
     line-height: 35px;
   }
 
@@ -25,7 +26,7 @@
   }
 </style>
 <div class="edu">
-  <div class="major">Software Engineer</div>
+  <div class="major">Bachelor of Information Technology</div>
 
   <div class="gpa">
     <span>GPA 3.78, </span>

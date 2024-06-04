@@ -4,8 +4,8 @@
       <div class="first">Muhammad</div>
       <span class="callname">Sidratul</span>  Muntaha
     </div>
-    <div class="title">Manager and Fullsatck Enginner</div>
-    <div class="exp">+9 YRS EXP</div>
+    <div class="title">Manager and Fullstack Enginner</div>
+    <div class="exp">+10 YRS EXP</div>
   </div>
   <Contact/>
 </div>

@@ -17,7 +17,7 @@
     grid-auto-flow: column;
     grid-column-gap: 4px;
     justify-content: start;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 6fr 1fr;
   }
 
   .skill-group{
@@ -83,8 +83,8 @@
   <Profile/>
   <div class="section">
     <div>
-      <h3 class="header">Experience</h3>
-      <div>
+      <h3 class="header">Experiences</h3>
+      <div style="">
         {#each experiences as exp}
           <Experience exp={exp}/>
         {/each}
