@@ -10,7 +10,7 @@ export interface SkillGroup {
 
 export const skills: SkillGroup[] = [
   {
-    group: "Progamming languages",
+    group: "Programming languages",
     skills: [
       {
         name: "Nodejs",
@@ -29,7 +29,11 @@ export const skills: SkillGroup[] = [
         level: 2,
       },
       {
-        name: "Vanilla Js",
+        name: "JavaScript",
+        level: 3,
+      },
+      {
+        name: "TypeScript",
         level: 3,
       },
       {
@@ -91,6 +95,10 @@ export const skills: SkillGroup[] = [
         name: "Vuejs"
       },
       {
+        level: 3,
+        name: "Nuxt"
+      },
+      {
         level: 2,
         name: "Django"
       },
@@ -136,7 +144,11 @@ export const skills: SkillGroup[] = [
       },
       {
         level: 3,
-        name: "capasitor"
+        name: "Capacitor"
+      },
+      {
+        level: 2,
+        name: "Expo"
       },
       {
         level: 3,
@@ -148,7 +160,7 @@ export const skills: SkillGroup[] = [
       },
       {
         level: 3,
-        name: "Boostrap"
+        name: "Bootstrap"
       },
       {
         level: 3,
@@ -229,7 +241,7 @@ export const skills: SkillGroup[] = [
         level: 3,
       },
       {
-        name: "Postgress",
+        name: "Postgres",
         level: 3,
       },
       {

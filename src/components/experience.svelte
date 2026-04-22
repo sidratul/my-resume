@@ -27,19 +27,25 @@
     margin-bottom: 30px;
   }
 
+  .experience.compact{
+    gap: 2px;
+    margin-bottom: 14px;
+  }
+
+  .experience.compact .company{
+    font-size: 15px;
+  }
+
+  .experience.compact .job{
+    font-size: 12px;
+  }
+
   .description{
     text-align: justify;
   }
-
-  .products{
-    display: flex;
-    gap: 8px;
-    font-size: 11px;
-    margin-top: 2px;
-  }
 </style>
 
-<div class="experience">
+<div class="experience" class:compact={!exp.description}>
   <div>
     <span class="company">{exp.company},</span>
     <span class="city">{exp.city}</span>
@@ -56,9 +62,11 @@
     {/if}  -->
   </div>
   
-  <div class="description">
-    {@html exp.description}
-  </div>
+  {#if exp.description}
+    <div class="description">
+      {@html exp.description}
+    </div>
+  {/if}
 
 
   <!-- {#if exp.jobdesks}

@@ -12,7 +12,9 @@
     box-shadow: 2px 2px 6px 0px #d2d2d5;
     border-radius: 3px;
     font-size: 12px;
+    print-color-adjust:exact;
     -webkit-print-color-adjust:exact;
+    filter:opacity(1);
     -webkit-filter:opacity(1);
   }
 </style>
